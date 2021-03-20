@@ -42,6 +42,10 @@ li {
 	margin-bottom: 0.5em;
 }
 
+.odstavec {
+	font-size: 16px;
+	font-weight: normal;
+}
 .napoveda {
 	margin-top: 50px;
 	padding: 20px;
@@ -62,7 +66,7 @@ li {
 .tlacitko {
 	display: inline-block;
 	font-family: Monserrat, sans-serif;
-	font-size: 36px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
@@ -113,6 +117,10 @@ li {
 	background-color: greenyellow;
 	color: black;
 	border-color: green;
+}
+
+.cerveny {
+	color: red;
 }
 
 
