@@ -15,8 +15,13 @@ function cerveny() {
 
 //zvětšení písma
 function biggerText() {
-    odstavec.style.fontSize = "1.5rem";
+    let element = document.querySelector(".odstavec");
+    let style = window.getComputedStyle(element, null).getPropertyValue('font-size');
+    let currentSize = parseFloat(style);
+
+    element.style.fontSize = (currentSize + 1) + 'px';
 }
+
 
 // prehraj
 // @param {string} elementSelector;
